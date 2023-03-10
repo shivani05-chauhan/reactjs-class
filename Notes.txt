@@ -106,3 +106,24 @@ const [state, setState] = useState([''])
 > What is a Clean up function? (HW)
 > PLEASE GET LAPTOPS (MAIN HW)
 
+===================== Conditional Rendering =====================
+
+
+Conditioanlly rendering components using terenary operators and conditions.
+
+> When we are fetching data from APIs
+> We we are doing promises or async tasks
+
+Challenge: 
+// Create button
+// on Click of the button toggle the response
+
+
+HW:
+Can we use useState( ) inside if condition? If not why?
+
+if (showContent) {
+        const [error, setError] = useState(true)
+    }
+
+

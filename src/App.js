@@ -5,6 +5,8 @@ import TestUseEffect from './useEffect/testUseEffect';
 import CleanUpFunction from './useEffect/03-cleanUpFunction';
 import CleanupFunction from './useEffect/01-cleanUpFunc';
 import Posts from './useEffect/04-clean-up-fetch';
+import MultipleReturnsBasic from './conditional-rendering/01-multiple-returns'
+import MultipleReturnsAdvance from './conditional-rendering/02-multiple-returns-fetch'
 import './App.css';
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
       {/* <TestUseEffect />  */}
       {/* <CleanUpFunction />  */}
       {/* <CleanupFunction /> */}
-      <Posts />
+      {/* <Posts /> */}
+      {/* <MultipleReturnsBasic /> */}
+      <MultipleReturnsAdvance />
     </div>
   );
 }
