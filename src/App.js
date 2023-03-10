@@ -7,6 +7,7 @@ import CleanupFunction from './useEffect/01-cleanUpFunc';
 import Posts from './useEffect/04-clean-up-fetch';
 import MultipleReturnsBasic from './conditional-rendering/01-multiple-returns'
 import MultipleReturnsAdvance from './conditional-rendering/02-multiple-returns-fetch'
+import UserChallengeTest from './conditional-rendering/user-challenge-ans';
 import './App.css';
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <CleanupFunction /> */}
       {/* <Posts /> */}
       {/* <MultipleReturnsBasic /> */}
-      <MultipleReturnsAdvance />
+      {/* <MultipleReturnsAdvance />  */}
+      <UserChallengeTest />
     </div>
   );
 }
