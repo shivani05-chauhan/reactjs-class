@@ -1,39 +1,33 @@
-
-// if user is there is login page
-// if user is not there then logout page
-// if user clicks logout set user null
-// if user click login set some value to the user
-
 import React, { useState } from 'react'
 
-const UserChallengeTest = () => {
-
+const UserChallenge = () => {
     const [user, setUser] = useState(null)
 
-    const handleLogin = () => {
-        setUser({ name: "Achivers IT" })
+
+    const login = () => {
+        setUser({ name: 'Anil' })
     }
 
-    const handleLogout = () => {
+    const logout = () => {
         setUser(null)
     }
-
     return (
         <div>
             {
                 user ?
                     <div>
                         <h4>{user.name}</h4>
-                        <button onClick={handleLogout}>Logout</button>
-                    </div> :
+                        <button onClick={logout}>Logout</button>
+                    </div>
+                    :
                     <div>
-                        <h4>Click to login</h4>
-                        <button onClick={handleLogin}>Login</button>
+                        <h4>click to login</h4>
+                        <button onClick={login}>Login</button>
                     </div>
             }
-
         </div>
     )
 }
 
-export default UserChallengeTest
+export default UserChallenge
+

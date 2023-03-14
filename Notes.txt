@@ -127,3 +127,34 @@ if (showContent) {
     }
 
 
+
+================================CONTROLLED AND UN CONTROLLED COMPONENT===========================
+
+Controlled:
+ > The component is handled by a state
+
+ <input value={} onChange={} />
+
+ Uncontrolled:
+ > The DOM controlls the component
+
+ <input default-value={} />
+
+Limitations of Uncontrolled Components:
+
+ Limited control over user input: With uncontrolled components, you have limited control over user input. For example, you cannot validate or transform user input before it is submitted to the server. This can lead to inconsistent data and errors on the server.
+
+Limited ability to handle complex UI features: With uncontrolled components, it can be harder to handle complex UI features like conditional rendering or disabling/enabling certain inputs based on the state of other inputs. This is because uncontrolled components rely on the DOM state, which can be harder to manipulate and work with than React state.
+
+Limited ability to test: With uncontrolled components, it can be harder to test the component's behavior because you need to rely on the DOM state to verify that the input values are being updated correctly. This can make it harder to write effective tests and debug issues.
+
+Difficult to share state between components: With uncontrolled components, it can be difficult to share state between components because the component's state is managed internally by the DOM. This can make it harder to build complex applications that require shared state between multiple components.
+
+Increased complexity as forms grow in size: As the size of the form grows, uncontrolled components can become harder to manage and maintain, especially when working with complex data structures. This can make it harder to write and maintain clean, well-organized code.
+
+
+['Anil', 'AchiversIt', 'Zoro'].map(item => {
+    return (
+        <div>{item}</div>
+    )
+})

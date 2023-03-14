@@ -9,7 +9,9 @@ import MultipleReturnsBasic from './conditional-rendering/01-multiple-returns'
 import MultipleReturnsAdvance from './conditional-rendering/02-multiple-returns-fetch'
 import UserChallengeTest from './conditional-rendering/user-challenge-ans';
 import './App.css';
-
+import ControlledInputs from './forms/01-controlled-inputs';
+import Uncontrolled from './forms/02-un-controlled'
+import FormsChallenge from './forms/03-forms-challenge'
 function App() {
 
 
@@ -23,7 +25,9 @@ function App() {
       {/* <Posts /> */}
       {/* <MultipleReturnsBasic /> */}
       {/* <MultipleReturnsAdvance />  */}
-      <UserChallengeTest />
+      {/* <UserChallengeTest /> */}
+      {/* <ControlledInputs /> */}
+      <FormsChallenge />
     </div>
   );
 }
